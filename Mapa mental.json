@@ -1,0 +1,241 @@
+{
+  "drawio": {
+    "version": "17.6.5",
+    "diagrams": [
+      {
+        "name": "Machine Learning Models",
+        "elements": [
+          {
+            "id": "root",
+            "type": "ellipse",
+            "text": "Machine Learning",
+            "x": 300,
+            "y": 100,
+            "width": 150,
+            "height": 50
+          },
+          {
+            "id": "statistical",
+            "type": "ellipse",
+            "text": "Statistical Modeling",
+            "x": 150,
+            "y": 200,
+            "width": 150,
+            "height": 50,
+            "parent": "root"
+          },
+          {
+            "id": "supervised",
+            "type": "rectangle",
+            "text": "Supervised",
+            "x": 50,
+            "y": 300,
+            "width": 120,
+            "height": 50,
+            "parent": "statistical"
+          },
+          {
+            "id": "classification",
+            "type": "rectangle",
+            "text": "Classification",
+            "x": 10,
+            "y": 400,
+            "width": 120,
+            "height": 50,
+            "parent": "supervised"
+          },
+          {
+            "id": "knn",
+            "type": "ellipse",
+            "text": "kNN",
+            "x": 10,
+            "y": 500,
+            "width": 80,
+            "height": 40,
+            "parent": "classification"
+          },
+          {
+            "id": "logistic",
+            "type": "ellipse",
+            "text": "Logistic Regression",
+            "x": 100,
+            "y": 500,
+            "width": 120,
+            "height": 40,
+            "parent": "classification"
+          },
+          {
+            "id": "naive",
+            "type": "ellipse",
+            "text": "Naive Bayes",
+            "x": 200,
+            "y": 500,
+            "width": 100,
+            "height": 40,
+            "parent": "classification"
+          },
+          {
+            "id": "regression",
+            "type": "rectangle",
+            "text": "Regression",
+            "x": 300,
+            "y": 400,
+            "width": 120,
+            "height": 50,
+            "parent": "supervised"
+          },
+          {
+            "id": "unsupervised",
+            "type": "rectangle",
+            "text": "Unsupervised",
+            "x": 250,
+            "y": 300,
+            "width": 150,
+            "height": 50,
+            "parent": "statistical"
+          },
+          {
+            "id": "clustering",
+            "type": "rectangle",
+            "text": "Clustering",
+            "x": 250,
+            "y": 400,
+            "width": 120,
+            "height": 50,
+            "parent": "unsupervised"
+          },
+          {
+            "id": "kmeans",
+            "type": "ellipse",
+            "text": "k-Means",
+            "x": 250,
+            "y": 500,
+            "width": 100,
+            "height": 40,
+            "parent": "clustering"
+          },
+          {
+            "id": "dbscan",
+            "type": "ellipse",
+            "text": "DBSCAN",
+            "x": 350,
+            "y": 500,
+            "width": 100,
+            "height": 40,
+            "parent": "clustering"
+          },
+          {
+            "id": "ensemble",
+            "type": "ellipse",
+            "text": "Ensemble Models",
+            "x": 450,
+            "y": 200,
+            "width": 150,
+            "height": 50,
+            "parent": "root"
+          },
+          {
+            "id": "boosting",
+            "type": "rectangle",
+            "text": "Boosting",
+            "x": 450,
+            "y": 300,
+            "width": 120,
+            "height": 50,
+            "parent": "ensemble"
+          },
+          {
+            "id": "adaboost",
+            "type": "ellipse",
+            "text": "AdaBoost",
+            "x": 450,
+            "y": 400,
+            "width": 80,
+            "height": 40,
+            "parent": "boosting"
+          },
+          {
+            "id": "xgboost",
+            "type": "ellipse",
+            "text": "XGBoost",
+            "x": 550,
+            "y": 400,
+            "width": 80,
+            "height": 40,
+            "parent": "boosting"
+          },
+          {
+            "id": "neural",
+            "type": "ellipse",
+            "text": "Neural Networks",
+            "x": 600,
+            "y": 100,
+            "width": 150,
+            "height": 50,
+            "parent": "root"
+          },
+          {
+            "id": "mlp",
+            "type": "ellipse",
+            "text": "Multilayer Perceptron (MLP)",
+            "x": 600,
+            "y": 200,
+            "width": 150,
+            "height": 50,
+            "parent": "neural"
+          },
+          {
+            "id": "cnn",
+            "type": "ellipse",
+            "text": "Convolutional Neural Networks (CNN)",
+            "x": 600,
+            "y": 300,
+            "width": 180,
+            "height": 50,
+            "parent": "neural"
+          },
+          {
+            "id": "gan",
+            "type": "ellipse",
+            "text": "Generative Adversarial Networks (GAN)",
+            "x": 600,
+            "y": 400,
+            "width": 180,
+            "height": 50,
+            "parent": "neural"
+          },
+          {
+            "id": "reinforcement",
+            "type": "ellipse",
+            "text": "Reinforcement Learning",
+            "x": 750,
+            "y": 200,
+            "width": 180,
+            "height": 50,
+            "parent": "root"
+          },
+          {
+            "id": "qlearning",
+            "type": "ellipse",
+            "text": "Q-Learning",
+            "x": 750,
+            "y": 300,
+            "width": 100,
+            "height": 50,
+            "parent": "reinforcement"
+          },
+          {
+            "id": "dqn",
+            "type": "ellipse",
+            "text": "Deep Q-Network (DQN)",
+            "x": 750,
+            "y": 400,
+            "width": 120,
+            "height": 50,
+            "parent": "reinforcement"
+          }
+        ]
+      }
+    ]
+  }
+}
